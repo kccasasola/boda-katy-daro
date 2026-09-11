@@ -16,7 +16,7 @@ export default function DressCode() {
 
       <p className="max-w-md font-legible text-xl text-cream">
         No queremos que te sientas incómodo vestido como alguien que no sos,
-        pero nos encantaría si podés sumarte con una etiqueta{" "}<br>
+        pero nos encantaría si podés sumarte con una etiqueta{" "}</br>
         <strong className="font-bold">Elegante Sport Total Black</strong>.
       </p>
 
