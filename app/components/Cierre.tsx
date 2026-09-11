@@ -5,21 +5,16 @@ export default function Cierre() {
         Por último, ¿qué tema no puede faltar durante la fiesta?
       </h2>
 
-      {/*
-        ⚠️ PENDIENTE: en el original esto es un embed de Spotify con un
-        tema puntual (no un campo de sugerencia libre) — reemplazar el
-        track de abajo por la canción/playlist real que defina el
-        cliente (ver CLAUDE_CODE_BRIEF.md).
-      */}
       <div className="w-full max-w-md overflow-hidden rounded-xl">
         <iframe
-          src="https://open.spotify.com/playlist/4nRvsOvmFY93sZM5lihXZ9?si=98709197118c4675&pt=5259a2300d8798d80654d17301f1a394"
+          src="https://open.spotify.com/embed/playlist/4nRvsOvmFY93sZM5lihXZ9?utm_source=generator&theme=0&si=579431e6d919470a"
           width="100%"
-          height="152"
+          height="352"
           frameBorder="0"
+          allowFullScreen
           allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
           loading="lazy"
-          title="Tema sugerido para la fiesta"
+          title="Playlist de nuestra boda"
         />
       </div>
     </section>
