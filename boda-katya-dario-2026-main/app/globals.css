@@ -1,0 +1,47 @@
+@import "tailwindcss";
+
+/*
+ * Paleta base calcada del sitio original en Wix (ver CLAUDE_CODE_BRIEF.md).
+ * ⚠️ Mejora UX/UI (rama ux-ui-improvements): --wine y --wine-strong se
+ * subieron de luminosidad respecto al original (#8b0000 / #ae0000) porque
+ * daban ~2.1:1 y ~2.8:1 de contraste sobre negro — bajo el mínimo WCAG AA
+ * (4.5:1 para texto normal). Los valores actuales dan ~4.6:1 y ~5.3:1,
+ * manteniendo el mismo tono "vino".
+ */
+:root {
+  --background: #faf7f2;
+  --foreground: #1a1a1a;
+  --cream: #fcf8eb;
+  --maroon: #460101;
+  --wine: #e4252b;
+  --wine-strong: #ea3e44;
+  --muted: #8a8378;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-cream: var(--cream);
+  --color-maroon: var(--maroon);
+  --color-wine: var(--wine);
+  --color-wine-strong: var(--wine-strong);
+  --color-muted: var(--muted);
+  --font-sans: var(--font-body);
+  --font-serif: var(--font-heading);
+  --font-legible: var(--font-readable);
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-sans);
+}
+
+/*
+ * Los títulos de sección (Cinzel) en el original usan versalitas, no
+ * mayúscula uniforme — a diferencia de las etiquetas/botones chicos que
+ * sí van en mayúscula pareja (ver CLAUDE_CODE_BRIEF.md).
+ */
+h2 {
+  font-variant: small-caps;
+}
