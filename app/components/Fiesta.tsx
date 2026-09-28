@@ -19,7 +19,7 @@ export default function Fiesta() {
       <p className="mt-4 text-xs uppercase tracking-[0.3em] text-wine">Fiesta</p>
       <h2 className="font-serif text-[28px] text-wine">El Molino | Casa de Campo</h2>
 
-      <p className="font-legible text-xl text-wine">A continuación de la ceremonia de civil</p>
+      <p className="font-legible text-xl text-wine">A continuación de la ceremonia de civil <br /> Viernes 13 de Noviembre · 14:30hs apróximadamente</p>
 
       <a
         // ⚠️ PENDIENTE: dirección exacta — reemplazar el href por el link real de Google Maps
