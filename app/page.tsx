@@ -4,6 +4,7 @@ import Civil from "./components/Civil";
 import Fiesta from "./components/Fiesta";
 import DressCode from "./components/DressCode";
 import Reserva from "./components/Reserva";
+import Regalo from "./components/Regalo";
 import SacasteFotos from "./components/SacasteFotos";
 import Cierre from "./components/Cierre";
 
@@ -16,6 +17,7 @@ export default function Home() {
       <Fiesta />
       <DressCode />
       <Reserva />
+      <Regalo />
       <SacasteFotos />
       <Cierre />
     </main>
